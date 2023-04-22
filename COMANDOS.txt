@@ -7,3 +7,5 @@
 ##find / -perm -u=s -ls 2>/dev/null > /tmp/.find &## - comando para procurar suids em uma maquina
 
 ###rm -r### - para remover diretorios com coisas dentro
+
+###cat /proc/version### - pega a versao da maquina e usado para privesc
