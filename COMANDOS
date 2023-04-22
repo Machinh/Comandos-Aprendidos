@@ -1,5 +1,0 @@
-###COMANDOS###
-
-ps aux - mostra auteraçoes feitas pelos usuarios em uma maquina
-SHELL=/bin/bash script -q /dev/null - comando pra criar uma shell mais bonitinha em python
-find / -perm -u=s -ls 2>/dev/null > /tmp/.find & - comando para procurar suids em uma maquina
