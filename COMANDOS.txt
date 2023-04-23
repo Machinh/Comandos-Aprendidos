@@ -1,11 +1,15 @@
 ###COMANDOS###
 
-##ps aux## - mostra auteraçoes feitas pelos usuarios em uma maquina
+###ps aux### - mostra auteraçoes feitas pelos usuarios em uma maquina
 
 ##SHELL=/bin/bash script -q /dev/null## - comando pra criar uma shell mais bonitinha em python
 
-##find / -perm -u=s -ls 2>/dev/null > /tmp/.find &## - comando para procurar suids em uma maquina
+###find / -perm -04000 2>/dev/null### - comando para procurar suids em uma maquina
 
 ###rm -r### - para remover diretorios com coisas dentro
 
 ###cat /proc/version### - pega a versao da maquina e usado para privesc
+
+###ssh -i (id_rsa) <ip>### - comando para logar em ssh com id_rsa
+
+###gcc --static (arquivo) -o (arquivo)### - comando para compilar arquivos em .c
