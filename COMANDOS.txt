@@ -13,3 +13,5 @@
 ###ssh -i (id_rsa) <ip>### - comando para logar em ssh com id_rsa
 
 ###gcc --static (arquivo) -o (arquivo)### - comando para compilar arquivos em .c
+
+###export TERM=xterm### comando para baixar xterm em uma maquina
