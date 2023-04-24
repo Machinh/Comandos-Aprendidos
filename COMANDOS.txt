@@ -15,3 +15,5 @@
 ###gcc --static (arquivo) -o (arquivo)### - comando para compilar arquivos em .c
 
 ###export TERM=xterm### comando para baixar xterm em uma maquina
+
+###chattr -i (file)### - torna o file imutavel
