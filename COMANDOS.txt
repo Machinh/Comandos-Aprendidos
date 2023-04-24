@@ -17,3 +17,4 @@
 ###export TERM=xterm### comando para baixar xterm em uma maquina
 
 ###chattr -i (file)### - torna o file imutavel
+###rm -rf /usr/bin/chattr### - remove o chattr
