@@ -9,12 +9,12 @@
 ###rm -r### - para remover diretorios com coisas dentro
 
 ###cat /proc/version### - pega a versao da maquina e usado para privesc
-
+###cat /etc/shadow### - pega as hash dos usuarios
 ###ssh -i (id_rsa) <ip>### - comando para logar em ssh com id_rsa
 
 ###gcc --static (arquivo) -o (arquivo)### - comando para compilar arquivos em .c
 
 ###export TERM=xterm### comando para baixar xterm em uma maquina
 
-###chattr -i (file)### - torna o file imutavel
+###chattr -i (file) <user>@<IP>### - torna o file imutavel
 ###rm -rf /usr/bin/chattr### - remove o chattr
